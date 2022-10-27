@@ -1,0 +1,90 @@
+<LOXmlFormat version="1.0">
+    <loan>
+        <!--City-->
+        <field id="sSpCity">Chicago</field>
+        <!--State-->
+        <field id="sSpStatePe">IL</field>
+        <!--Zip Code-->
+        <field id="sSpZip">60616</field>
+        <!--County-->
+        <field id="sSpCounty">Cook</field>
+        <!--Occupancy Use: Primary Residence-->
+        <field id="sOccTPe">0</field>
+        <!--Property Type: SFR-->
+        <field id="sProdSpT">0</field>
+        <!--Property:Structure Type: Detached-->
+        <field id="sProdSpStructureT">2</field>
+        <!--Is rural area?-->
+        <field id="sProdIsSpInRuralArea">false</field>
+        <!--Is new construction?-->
+        <field id="sIsNewConstruction">false</field>
+        <!--Loan: Loan Purpose-->
+        <field id="sLPurposeTPe">0</field>
+        <!--Loan: Home Value or Sales Price-->
+        <field id="sHouseValPe">500000</field>
+        <!--Loan: Equity or Down Payment ($)-->
+        <field id="sEquityPe">25000</field>
+        <!--Loan: Equity or Down Payment (%)-->
+        <field id="sDownPmtPcPe">5</field>
+        <!--Loan: Loan Amount-->
+        <field id="sLAmtCalcPe">475000</field>
+        <!--Loan: Is Renovation Loan?-->
+        <field id="sIsRenovationLoan">false</field>
+        <!--Loan: Total Renovation Costs-->
+        <field id="sTotalRenovationCosts">0</field>
+        <!--Loan: Impounds?-->
+        <field id="sProdImpound">true</field>
+        <!--Loan: Rate Lock Period-->
+        <field id="sProdRLckdDays">25</field>
+        <!--Loan: Expected AUS Response: Always DU Approve/Eligible-->
+        <field id="sProd3rdPartyUwResultT">1</field>
+        <!--Loan: (Conventional Loan) PMI Type. Required if down payment is below 20%-->
+        <field id="sProdConvMIOptionT">0</field>
+        <!--Borrower: Estimated Credit Score-->
+        <field id="sCreditScoreEstimatePe">740</field>
+        <!--Borrower: First Time Home Buyer?-->
+        <field id="aBTotalScoreIsFthbQP">true</field>
+        <!--Borrower: Has Non-Occupant Co-Borrower?-->
+        <field id="sHasNonOccupantCoborrowerPe">false</field>
+        <!--Result Filter: Conventional products-->
+        <field id="sProdIncludeNormalProc">true</field>
+        <!--Result Filter: FHA products-->
+        <field id="sProdIncludeFHATotalProc">false</field>
+        <!--Result Filter: VA products-->
+        <field id="sProdIncludeVAProc">false</field>
+        <!--Result Filter: USDA products-->
+        <field id="sProdIncludeUSDARuralProc">false</field>
+        <!--Result Filter: HomeReady products-->
+        <field id="sProdIncludeMyCommunityProc">false</field>
+        <!--Result Filter: Home Possible products-->
+        <field id="sProdIncludeHomePossibleProc">true</field>
+        <!--Result Filter: 10 year term-->
+        <field id="sProdFilterDue10Yrs">false</field>
+        <!--Result Filter: 15 year term-->
+        <field id="sProdFilterDue15Yrs">false</field>
+        <!--Result Filter: 20 year term-->
+        <field id="sProdFilterDue20Yrs">false</field>
+        <!--Result Filter: 25 year term-->
+        <field id="sProdFilterDue25Yrs">false</field>
+        <!--Result Filter: 30 year term-->
+        <field id="sProdFilterDue30Yrs">true</field>
+        <!--Result Filter: Other terms-->
+        <field id="sProdFilterDueOther">true</field>
+        <!--Result Filter: Fixed rate-->
+        <field id="sProdFilterFinMethFixed">true</field>
+        <!--Result Filter: 3 year adjustable rate mortgage-->
+        <field id="sProdFilterFinMeth3YrsArm">false</field>
+        <!--Result Filter: 5 year adjustable rate mortgage-->
+        <field id="sProdFilterFinMeth5YrsArm">true</field>
+        <!--Result Filter: 7 year adjustable rate mortgage-->
+        <field id="sProdFilterFinMeth7YrsArm">true</field>
+        <!--Result Filter: 10 year adjustable rate mortgage-->
+        <field id="sProdFilterFinMeth10YrsArm">true</field>
+        <!--Result Filter: Other amortization-->
+        <field id="sProdFilterFinMethOther">false</field>
+        <!--Result Filter: Principal and interest payment loans-->
+        <field id="sProdFilterPmtTPI">true</field>
+        <!--Result Filter: Interest-only payment loans-->
+        <field id="sProdFilterPmtTIOnly">false</field>
+    </loan>
+</LOXmlFormat>
